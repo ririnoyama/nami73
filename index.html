@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2025/6/26 九十九里 波情報</title>
+  <style>
+    /* Base styles */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header, footer {
+      background: #006699;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    main {
+      padding: 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Surf-spots grid */
+    .spots {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .spot {
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,.1);
+      padding: 1rem;
+    }
+    .spot h2 {
+      margin-top: 0;
+      font-size: 1.25rem;
+      color: #006699;
+    }
+    .spot ul {
+      list-style: none;
+      padding: 0;
+      margin: .5rem 0 0 0;
+    }
+    .spot ul li {
+      margin: .25rem 0;
+    }
+
+    /* Video section */
+    .video-wrap {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0;
+      margin-top: 2rem;
+    }
+    .video-wrap iframe,
+    .video-wrap video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 4px;
+    }
+
+    /* Responsive for larger screens */
+    @media (min-width: 768px) {
+      .spots {
+        flex-direction: row;
+      }
+      .spot {
+        flex: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2025年6月26日 波情報｜九十九里エリア</h1>
+  </header>
+
+  <main>
+    <section class="spots">
+      <article class="spot">
+        <h2>片貝新堤</h2>
+        <ul>
+          <li>波高：夜間1.3m→朝1.0m→昼前0.8m</li>
+          <li>うねり方向：北北西→東南東</li>
+          <li>ピーク間隔：約13秒→9秒</li>
+          <li>風：南南西5〜6m/s → 午後は南寄り4m/s</li>
+          <li>満潮：4:24・16:50 / 干潮：9:09・21:01</li>
+        </ul>
+      </article>
+
+      <article class="spot">
+        <h2>片貝漁港</h2>
+        <ul>
+          <li>波高：1.1〜1.2mでコンスタントにブレイク</li>
+          <li>うねり方向：東南東〜南向き</li>
+          <li>ピーク間隔：約11秒</li>
+          <li>風：南南西5〜6m/s（終日オフショア寄り）</li>
+          <li>満潮・干潮：同上</li>
+        </ul>
+      </article>
+
+      <article class="spot">
+        <h2>作田</h2>
+        <ul>
+          <li>波高：0.7〜0.8mの小振り</li>
+          <li>ピーク間隔：約8秒</li>
+          <li>風：南南西6m/s前後</li>
+          <li>満潮：4:23・18:59 / 干潮：1:06・15:34</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="video">
+      <h2>ライブビーチカメラ</h2>
+      <div class="video-wrap">
+        <!-- YouTube埋め込み例 -->
+        <iframe 
+          src="https://youtu.be/VxX9CkMPXDc?si=opEx66914VExf0Nl" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>情報更新：2025/06/26 10:00｜提供：九十九里サーフ情報</p>
+  </footer>
+</body>
+</html>
